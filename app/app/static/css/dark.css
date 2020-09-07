@@ -1,0 +1,27 @@
+*, body {
+    background-color: rgb(43, 43, 43);
+}
+
+header {
+    background-color: rgb(43, 43, 43);
+}
+
+header * {
+    color: white;
+}
+
+header li a {
+    color: white;
+}
+
+.tag a {
+    color: white;
+}
+
+.landing * {
+    color: white;
+}
+
+footer * {
+    color: white;
+}

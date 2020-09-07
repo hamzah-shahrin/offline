@@ -1,0 +1,15 @@
+*, body {
+    background-color: white;
+}
+
+header {
+    background-color: white;
+}
+
+header li a {
+    color: black;
+}
+
+.tag a {
+    color: black;
+}

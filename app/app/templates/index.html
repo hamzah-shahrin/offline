@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block main %}
+    <section class="landing center">
+        <h1 class="title">Offline</h1>
+        <p class="description">
+            A rough, ramshackle epub forum threadmark downloader whipped up in a weekend as a temporary replacement to Valedan's beloved service Omnibuser. Incomplete, untested and not recommended unless at gunpoint.
+        </p>
+        <div class="row">
+            <ul>
+                <li class="row-item tag"><a href="https://forums.spacebattles.com/">spacebattles</a></li>
+                <li class="row-item tag"><a href="https://forums.sufficientvelocity.com/">sufficientvelocity</a></li>
+                <li class="row-item tag"><a href="https://forum.questionablequesting.com/">questionablequesting</a></li>
+            </ul>
+        </div>
+        <form method="POST" novalidate>
+            {{ form.hidden_tag() }}
+            {{ form.url() }}
+            {{ form.submit() }}
+            <!-- 
+            <input type="text" placeholder="URL">
+            <input type="submit" value="Download">
+            -->
+        </form>
+    </section>
+{% endblock main %}
